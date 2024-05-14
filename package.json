@@ -1,0 +1,31 @@
+{
+  "name": "projects-starter-cli",
+  "version": "1.0.0",
+  "description": "Project Starter CLI for projects",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "kolimar-create-project": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolimar/projects-starter-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Alfonzo",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
